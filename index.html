@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Victor Elumah — #CyberVictor</title>
+<title>Glory O. Uchola &mdash; Data Analyst &amp; Executive Support Professional</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Outfit:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
@@ -160,6 +160,7 @@
     opacity: 0; animation: slideIn 0.6s 0.3s forwards;
   }
   h1 em { color: var(--teal); font-style: italic; }
+  .hero-name { white-space: nowrap; font-size: clamp(2.45rem, 4.7vw, 4.65rem); }
 
   .hero-role-strip {
     display: flex; align-items: center; gap: 0.6rem;
@@ -219,6 +220,12 @@
   .photo-card::after {
     content: ''; position: absolute; inset: 0;
     background: linear-gradient(135deg, transparent 60%, rgba(26,110,122,0.04) 100%);
+  }
+  .photo-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
   }
   .photo-initials {
     font-family: 'Cormorant Garamond', serif;
@@ -432,6 +439,14 @@
     margin-bottom: 0.5rem;
   }
   .pcard-problem p { font-size: 0.88rem; color: var(--ink-mid); line-height: 1.75; }
+  .pcard-problem ul {
+    margin-top: 0.65rem;
+    padding-left: 1.1rem;
+    font-size: 0.86rem;
+    color: var(--ink-mid);
+    line-height: 1.75;
+  }
+  .pcard-problem li { margin-bottom: 0.25rem; }
   .pcard-meta { display: flex; flex-wrap: wrap; gap: 1rem; }
   .pmeta-item {
     flex: 1; min-width: 170px; padding: 1rem 1.1rem;
@@ -517,6 +532,7 @@
     #home { grid-template-columns: 1fr; padding-top: calc(var(--nav-h) + 2rem); text-align: center; }
     .hero-visual { display: none; }
     .hero-bio { margin: 0 auto 2.5rem; }
+    .hero-name { font-size: 2.25rem; }
     .hero-ctas { justify-content: center; }
     .hero-role-strip { justify-content: center; }
     .about-grid, .exp-grid { grid-template-columns: 1fr; gap: 3rem; }
@@ -538,7 +554,7 @@
 
 <!-- NAV -->
 <nav>
-  <a class="nav-logo" href="#home">Victor <span>Elumah</span></a>
+  <a class="nav-logo" href="#home">Glory O. <span>Uchola</span></a>
   <ul class="nav-links">
     <li><a href="#home">Home</a></li>
     <li><a href="#about">About</a></li>
@@ -570,19 +586,19 @@
 
   <div class="hero-content">
     <div class="hero-eyebrow">
-      <span class="eyebrow-pill">#CyberVictor</span>
+      <span class="eyebrow-pill">Data &amp; Executive Support Portfolio</span>
       <span class="eyebrow-line"></span>
     </div>
-    <h1>Victor<br><em>Elumah</em></h1>
+    <h1 class="hero-name">Glory O. <em>Uchola</em></h1>
     <div class="hero-role-strip">
-      <span class="role-item">Aspiring Cybersecurity Professional</span>
+      <span class="role-item">Aspiring Data Analyst</span>
       <span class="role-dot"></span>
-      <span class="role-item">Administrative Specialist</span>
+      <span class="role-item">Admin &amp; Virtual Assistant</span>
       <span class="role-dot"></span>
-      <span class="role-item">Technologist</span>
+      <span class="role-item">Executive Support Professional</span>
     </div>
     <p class="hero-bio">
-      A petroleum and natural gas technologist transitioning into cybersecurity and digital risk management — building resilient, secure systems for Africa's critical industries.
+      Highly organized administrative and personal assistant with 10+ years of experience, now transitioning into data analysis, using data computing to drive decisions, improve systems, and solve real-world problems.
     </p>
     <div class="hero-ctas">
       <a href="#portfolio" class="btn-primary">
@@ -598,11 +614,11 @@
       <div class="photo-corner-deco"></div>
       <div class="photo-corner-deco-br"></div>
       <div class="photo-card">
-        <span class="photo-initials">VE</span>
+        <img src="profile.jpg" alt="Glory O. Uchola">
       </div>
       <div class="badge">
-        <strong>2019 – Now</strong>
-        NNPC E&amp;P/ND Western
+        <strong>10+ Years</strong>
+        Admin, Executive Support &amp; Data
       </div>
     </div>
   </div>
@@ -616,29 +632,33 @@
   </div>
   <div class="about-grid reveal">
     <div class="about-text">
-      <p>My name is Victor Elumah — a petroleum and natural gas technologist transitioning into the field of cybersecurity and digital risk management. I hold a postgraduate diploma in Petroleum Engineering and a training in AI Essentials with ALX.</p>
-      <p>With experience in engineering operations and administrative support, I have developed a strong interest in technology, digital systems, and infrastructure security. My professional journey is centered on combining engineering knowledge with modern cybersecurity practices.</p>
-      <p>I am currently developing my expertise in cybersecurity, data analysis, and digital transformation while building a professional brand focused on innovation, security, and sustainable development.</p>
+      <p>My name is Glory O. Uchola, an experienced administrative and executive assistant with a strong background in office operations, HR coordination, and virtual support. I hold a Master of Public Health (2025), with certifications in data analysis and IT support.</p>
+      <p>I am currently attending the ALX Foundational Program in Data Analysis, where I am learning to clean, analyze, and visualize data to uncover insights. My professional journey combines years of managing people, processes, and information with a growing passion for data computing.</p>
+      <p>I am building a brand centered on accuracy, efficiency, and impact, using data to help organizations make better decisions and solve global challenges like food security, health access, and sustainability.</p>
       <div class="about-callout">
-        <h3>Why Cybersecurity?</h3>
-        <p>I chose cybersecurity because of my passion for protecting critical infrastructure. Coming from the oil and gas sector, I understand how important secure and resilient systems are to industries that power economies and support millions of people.</p>
+        <h3>Why Data Analysis?</h3>
+        <p>I chose data analysis because I have always worked with data manually: tracking attendance, compiling reports, managing employee records, and organizing spreadsheets. Now I want to take it further by using analysis to understand problems and design stronger solutions.</p>
       </div>
     </div>
     <div>
       <div class="vision-card">
         <div class="vision-label">My Vision</div>
-        <p class="vision-quote">To contribute to secure, resilient, and technology-driven systems across Africa's critical industries through engineering knowledge and cybersecurity expertise.</p>
+        <p class="vision-quote">To become a data analyst who can stand at the intersection of administration, public health, and technology, using data computing to solve global problems, especially in Africa's development sectors.</p>
       </div>
       <div class="competencies-label">Core Competencies</div>
       <div class="tags">
-        <span class="tag">Cybersecurity Fundamentals</span>
-        <span class="tag">Digital Risk Management</span>
-        <span class="tag">Oil & Gas Operations</span>
-        <span class="tag">Technical Support</span>
-        <span class="tag">Leadership</span>
-        <span class="tag">Communication</span>
         <span class="tag">Analytical Thinking</span>
-        <span class="tag">Data Analysis</span>
+        <span class="tag">Excel / Google Sheets</span>
+        <span class="tag">SQL</span>
+        <span class="tag">Python</span>
+        <span class="tag">Power BI / Tableau</span>
+        <span class="tag">Executive Support</span>
+        <span class="tag">Virtual Assistance</span>
+        <span class="tag">HR Coordination</span>
+        <span class="tag">Operations</span>
+        <span class="tag">Public Health</span>
+        <span class="tag">Agriculture</span>
+        <span class="tag">Communication</span>
       </div>
     </div>
   </div>
@@ -652,40 +672,103 @@
   </div>
   <div class="exp-grid reveal">
     <div>
-      <div class="exp-heading">Work Experience</div>
+      <div class="exp-heading">Work History Summary</div>
       <div class="timeline">
         <div class="timeline-item">
           <div class="t-dot"></div>
-          <div class="t-period">2019 — Present</div>
-          <div class="t-title">Petroleum Engineer (Administrative Personnel)</div>
-          <div class="t-sub">NNPC E&P/ND Western — OML34 JV</div>
+          <div class="t-period">Oct 2022 &mdash; Present</div>
+          <div class="t-title">Executive Administrative &amp; Personal Assistant</div>
+          <div class="t-sub">Olam Agri &mdash; Abuja</div>
           <ul class="t-desc">
-            <li>Managed oil and gas operational documentation within OML 34, improving documentation efficiency by 95%.</li>
-            <li>Prepared and tracked technical reports, maintenance records, and operational data.</li>
-            <li>Ensured accurate and timely administrative support for daily production activities.</li>
+            <li>Provide calendar, schedule, travel, logistics, and executive office support.</li>
+            <li>Manage CRM, digital filing systems, meeting preparation, and post-meeting record archiving.</li>
+            <li>Support stakeholder engagement, internal communication, and administrative reporting.</li>
+          </ul>
+        </div>
+        <div class="timeline-item">
+          <div class="t-dot"></div>
+          <div class="t-period">Oct 2020 &mdash; Sep 2022</div>
+          <div class="t-title">HR &amp; Administrative Assistant</div>
+          <div class="t-sub">Saro Agro-Allied Ltd &mdash; Abuja</div>
+          <ul class="t-desc">
+            <li>Coordinated HR records, attendance tracking, leave rosters, and employee documentation.</li>
+            <li>Prepared weekly and monthly administrative reports for management review.</li>
+            <li>Entered and maintained spreadsheet data with proven 100% accuracy.</li>
+          </ul>
+        </div>
+        <div class="timeline-item">
+          <div class="t-dot"></div>
+          <div class="t-period">Oct 2018 &mdash; Sep 2020</div>
+          <div class="t-title">Operations &amp; Logistics Coordinator</div>
+          <div class="t-sub">WACOT Ltd &mdash; Makurdi</div>
+          <ul class="t-desc">
+            <li>Coordinated warehouse and inventory documentation across operations workflows.</li>
+            <li>Supported vendor coordination, transport scheduling, and logistics tracking.</li>
+            <li>Prepared program documentation and field reporting for operational visibility.</li>
+          </ul>
+        </div>
+        <div class="timeline-item">
+          <div class="t-dot"></div>
+          <div class="t-period">2016 &mdash; Sep 2018</div>
+          <div class="t-title">Field Program &amp; Administrative Coordinator</div>
+          <div class="t-sub">Benue State Government</div>
+          <ul class="t-desc">
+            <li>Supported field program coordination, documentation, and administrative follow-up.</li>
+            <li>Compiled reports and maintained records for program activities.</li>
+            <li>Worked with community and stakeholder information in structured office systems.</li>
+          </ul>
+        </div>
+        <div class="timeline-item">
+          <div class="t-dot"></div>
+          <div class="t-period">May 2013 &mdash; Sep 2016</div>
+          <div class="t-title">Founder &amp; Administrative Manager</div>
+          <div class="t-sub">House of Zuriel Ltd &mdash; Makurdi</div>
+          <ul class="t-desc">
+            <li>Managed business administration, client coordination, scheduling, and records.</li>
+            <li>Oversaw day-to-day operations, service delivery, and internal documentation.</li>
+            <li>Built systems for customer communication and workflow organization.</li>
+          </ul>
+        </div>
+        <div class="timeline-item">
+          <div class="t-dot"></div>
+          <div class="t-period">Jul 2010 &mdash; Apr 2013</div>
+          <div class="t-title">Client Services &amp; Scheduling Assistant</div>
+          <div class="t-sub">Bensedi Hub &amp; SME Fashion Houses</div>
+          <ul class="t-desc">
+            <li>Handled client scheduling, front-office support, and service coordination.</li>
+            <li>Maintained appointment records and supported daily administrative workflows.</li>
+            <li>Provided customer-facing communication and follow-up support.</li>
           </ul>
         </div>
       </div>
-      <div class="certs">
+      <div class="exp-heading" style="font-size: 1.1rem; margin-top: 2.5rem;">Certifications</div>
+      <div class="certs" style="margin-top: 0;">
         <div class="cert">
-          <div class="cert-ico">🛡️</div>
+          <div class="cert-ico">IT</div>
           <div>
-            <div class="cert-name">Cybersecurity Fundamentals Certificate</div>
-            <div class="cert-issuer">Hajal Consulting · Sep 2025</div>
+            <div class="cert-name">IT Support Training</div>
+            <div class="cert-issuer">Digital Witch IT Support Academy &middot; 2022</div>
           </div>
         </div>
         <div class="cert">
-          <div class="cert-ico">🤖</div>
+          <div class="cert-ico">DA</div>
           <div>
-            <div class="cert-name">AI Career Essentials</div>
-            <div class="cert-issuer">ALX Africa</div>
+            <div class="cert-name">Data Analysis Certification</div>
+            <div class="cert-issuer">Alison &middot; 2021</div>
           </div>
         </div>
         <div class="cert">
-          <div class="cert-ico">💻</div>
+          <div class="cert-ico">SS</div>
           <div>
-            <div class="cert-name">Virtual Assistant Programme</div>
-            <div class="cert-issuer">ALX Africa</div>
+            <div class="cert-name">Jobberman Soft Skills Certification</div>
+            <div class="cert-issuer">Jobberman &middot; 2020</div>
+          </div>
+        </div>
+        <div class="cert">
+          <div class="cert-ico">AP</div>
+          <div>
+            <div class="cert-name">Advanced Professional Fashion Training</div>
+            <div class="cert-issuer">Kathy Anthony Fashion School</div>
           </div>
         </div>
       </div>
@@ -696,27 +779,42 @@
       <div class="timeline">
         <div class="timeline-item">
           <div class="t-dot"></div>
-          <div class="t-period">2023 — 2024</div>
-          <div class="t-title">Postgraduate Diploma — Petroleum Engineering</div>
-          <div class="t-sub">Federal University of Petroleum Resources Effurun</div>
-          <div class="t-desc">Credit. Served as course representative during postgraduate studies.</div>
+          <div class="t-period">2025</div>
+          <div class="t-title">Master of Public Health</div>
+          <div class="t-sub">Bingham University &mdash; Abuja</div>
+          <div class="t-desc">Public Health.</div>
         </div>
         <div class="timeline-item">
           <div class="t-dot"></div>
-          <div class="t-period">2019 — 2021</div>
-          <div class="t-title">HND — Petroleum &amp; Natural Gas Processing Engineering</div>
-          <div class="t-sub">Federal University of Petroleum Resources Effurun</div>
-          <div class="t-desc">Distinction.</div>
+          <div class="t-period">2022</div>
+          <div class="t-title">Human Resource Management</div>
+          <div class="t-sub">European Business University &mdash; Luxembourg</div>
+          <div class="t-desc">Human Resource Management program.</div>
+        </div>
+        <div class="timeline-item">
+          <div class="t-dot"></div>
+          <div class="t-period">2016</div>
+          <div class="t-title">BA Sales and Commerce</div>
+          <div class="t-sub">Federal University of Agriculture &mdash; Makurdi</div>
+          <div class="t-desc">Business.</div>
         </div>
       </div>
 
       <div style="margin-top: 2.5rem;">
-        <div class="exp-heading" style="font-size: 1.1rem;">Career Goals</div>
+        <div class="exp-heading" style="font-size: 1.1rem;">Volunteer Experience</div>
         <div class="timeline">
-          <div class="timeline-item"><div class="t-dot"></div><div class="t-desc">Become a globally competitive cybersecurity professional</div></div>
-          <div class="timeline-item"><div class="t-dot"></div><div class="t-desc">Support secure digital systems in critical industries</div></div>
-          <div class="timeline-item"><div class="t-dot"></div><div class="t-desc">Contribute to Africa's digital transformation</div></div>
-          <div class="timeline-item"><div class="t-dot"></div><div class="t-desc">Promote resilience in renewable energy infrastructure</div></div>
+          <div class="timeline-item">
+            <div class="t-dot"></div>
+            <div class="t-title">Community Development &amp; Outreach</div>
+            <div class="t-sub">Rotary Club of Nigeria</div>
+            <div class="t-desc">Supported community development, outreach, registration, and event coordination.</div>
+          </div>
+          <div class="timeline-item">
+            <div class="t-dot"></div>
+            <div class="t-title">Church Children Teacher</div>
+            <div class="t-sub">Local Church</div>
+            <div class="t-desc">Provided youth mentoring and educational support.</div>
+          </div>
         </div>
       </div>
     </div>
@@ -726,42 +824,85 @@
 <!-- PORTFOLIO -->
 <section id="portfolio">
   <div class="reveal">
-    <div class="section-tag">Featured Project</div>
+    <div class="section-tag">Core Portfolio Areas</div>
     <h2 class="section-title">Portfolio</h2>
   </div>
   <div class="pcard reveal">
     <div class="pcard-top">
       <div class="pcard-badge">
-        <span class="pcard-chip">ALX</span>
-        <span class="pcard-chip">Team Innovators</span>
-        <span class="pcard-chip">MY GCGO</span>
-        <span class="pcard-chip">Job Creation</span>
+        <span class="pcard-chip">Executive Support</span>
+        <span class="pcard-chip">Operations</span>
+        <span class="pcard-chip">Data Analysis</span>
+        <span class="pcard-chip">Public Health</span>
       </div>
-      <h3 class="pcard-title">WorkNaija — An AI-Powered Job Matching Wireframe</h3>
+      <h3 class="pcard-title">Admin, Operations &amp; Data Portfolio</h3>
     </div>
     <div class="pcard-body">
-      <p class="pcard-intro">The AI-Powered Job Matching Wireframe platform is aimed at solving the rising youth unemployment in Nigeria. The wireframe is designed to bridge the gap between skills and opportunities in Nigeria.</p>
+      <p class="pcard-intro">A focused portfolio showing how 10+ years of executive support, operations coordination, HR administration, and reporting now form a strong foundation for data analysis.</p>
       <div class="pcard-problem">
-        <h4>Problem Statement</h4>
-        <p>Rising youth unemployment in Nigeria, driven by limited access to affordable digital skills and job opportunities, leaves many youths economically vulnerable and calls for tech-driven solutions like AI-powered training and job matching platforms.</p>
+        <h4>1. Executive &amp; Administrative Support</h4>
+        <p><strong>Experience:</strong> 10+ years supporting executives, teams, clients, and administrative systems.</p>
+        <ul>
+          <li>Calendar and schedule management for executives.</li>
+          <li>Travel coordination, logistics, meeting preparation, and post-meeting record archiving.</li>
+          <li>CRM and digital filing systems, stakeholder engagement, and internal communications.</li>
+          <li>Key roles include Executive Administrative Assistant, HR &amp; Administrative Assistant, and Founder/Admin Manager.</li>
+        </ul>
+      </div>
+      <div class="pcard-problem">
+        <h4>2. Operations &amp; Logistics Coordination</h4>
+        <p><strong>Foundation:</strong> Practical experience coordinating documentation, vendors, field programs, and transport workflows.</p>
+        <ul>
+          <li>Warehouse and inventory documentation.</li>
+          <li>Vendor coordination and transport scheduling.</li>
+          <li>Program documentation and field reporting.</li>
+          <li>Key role: Operations &amp; Logistics Coordinator at WACOT Limited.</li>
+        </ul>
+      </div>
+      <div class="pcard-problem">
+        <h4>3. Data &amp; Record Management</h4>
+        <p><strong>Foundation for data analysis:</strong> Years of working with structured information across people, operations, HR, and reports.</p>
+        <ul>
+          <li>Manual and electronic filing systems.</li>
+          <li>Attendance tracking, leave rosters, HR records, and employee documentation.</li>
+          <li>Data entry into spreadsheets with 100% accuracy.</li>
+          <li>Prepared weekly and monthly administrative reports.</li>
+        </ul>
+      </div>
+      <div class="pcard-problem">
+        <h4>4. ALX Data Analysis</h4>
+        <p><strong>Status:</strong> In progress, focused on transforming raw information into clear, useful insights.</p>
+        <ul>
+          <li>Data cleaning and preparation: learning to prepare raw data for analysis.</li>
+          <li>Exploratory Data Analysis: finding patterns, anomalies, and useful signals.</li>
+          <li>Data visualization: creating charts and dashboards.</li>
+          <li>Storytelling with data: translating numbers into actionable insights.</li>
+        </ul>
+      </div>
+      <div class="pcard-problem">
+        <h4>5. Research Interests</h4>
+        <p><strong>Future project areas:</strong> Data analysis projects connected to public health, agriculture, sustainability, and community development.</p>
+        <ul>
+          <li>Food security and agricultural innovation.</li>
+          <li>Sustainability frameworks and WASH interventions.</li>
+          <li>Community health development and women's economic empowerment.</li>
+        </ul>
       </div>
       <div class="pcard-meta">
         <div class="pmeta-item">
-          <div class="pmeta-label">Platform</div>
-          <div class="pmeta-val">AI-Powered Job Matching &amp; Micro-Job Platform</div>
+          <div class="pmeta-label">Tools Learning</div>
+          <div class="pmeta-val">Excel, Google Sheets, SQL, Python, Power BI, Tableau</div>
         </div>
         <div class="pmeta-item">
-          <div class="pmeta-label">Focus</div>
-          <div class="pmeta-val">Bridging Skills &amp; Employment in Nigeria</div>
+          <div class="pmeta-label">Competency Base</div>
+          <div class="pmeta-val">Analytical thinking, accuracy, reporting, stakeholder communication</div>
         </div>
         <div class="pmeta-item">
-          <div class="pmeta-label">Team Members</div>
+          <div class="pmeta-label">Domain Knowledge</div>
           <div class="pmeta-val team-names">
-            Adegbulu Adedamola<br>
-            Bello Imoleayo<br>
-            Ukwuegbu Precious<br>
-            Elumah Victor<br>
-            Ogbonnaya Nkiruka
+            Public health<br>
+            Agriculture<br>
+            HR &amp; operations
           </div>
         </div>
       </div>
@@ -774,35 +915,35 @@
   <div class="contact-wrap reveal">
     <div class="section-tag" style="justify-content: center;">Let's Connect</div>
     <h2 class="section-title">Get In Touch</h2>
-    <p class="contact-desc">I am open to cybersecurity roles, internships and entry-level opportunities, as well as petroleum engineering and administrative roles both onsite and remotely. I'd be excited to connect, learn and grow professionally.</p>
+    <p class="contact-desc">I am open to data analysis, administrative, virtual assistant, and executive support opportunities where accuracy, systems thinking, communication, and data-informed decision making are valued.</p>
     <div class="contact-btns">
-      <a class="contact-btn" href="https://linkedin.com" target="_blank">
+      <a class="contact-btn" href="tel:+2348133863220">
         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
-        LinkedIn
+        +234 813 386 3220
       </a>
-      <a class="contact-btn" href="mailto:victorgodspowerelumah@gmail.com">
+      <a class="contact-btn" href="mailto:joesphglory@gmail.com">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 7l10 7 10-7"/></svg>
         Email Me
       </a>
     </div>
-    <a class="contact-email-link" href="mailto:victorgodspowerelumah@gmail.com">victorgodspowerelumah@gmail.com</a>
+    <a class="contact-email-link" href="mailto:joesphglory@gmail.com">joesphglory@gmail.com</a>
     <div class="open-to-card">
       <div class="open-to-label">Open To</div>
       <div class="open-tags">
-        <span class="open-tag">Cybersecurity Roles</span>
-        <span class="open-tag">Internships</span>
-        <span class="open-tag">Entry-Level Opportunities</span>
-        <span class="open-tag">Petroleum Engineering</span>
+        <span class="open-tag">Data Analysis</span>
         <span class="open-tag">Administrative Roles</span>
-        <span class="open-tag">Onsite &amp; Remote</span>
+        <span class="open-tag">Virtual Assistant</span>
+        <span class="open-tag">Executive Support</span>
+        <span class="open-tag">HR Coordination</span>
+        <span class="open-tag">Abuja, Nigeria</span>
       </div>
     </div>
   </div>
 </section>
 
 <footer>
-  <span>© 2025 Victor Elumah</span>
-  <span>#CyberVictor · victorgodspowerelumah@gmail.com</span>
+  <span>&copy; 2026 Glory O. Uchola</span>
+  <span>Aspiring Data Analyst &middot; Admin &amp; Virtual Assistant &middot; Executive Support</span>
 </footer>
 
 <script>
